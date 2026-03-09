@@ -1,0 +1,102 @@
+{
+  "heroSlides": [
+    {
+      "id": 1,
+      "image": "/images/hero/slide-1.jpg",
+      "alt": "Grande galpão industrial com estrutura metálica MaxFe",
+      "title": "Estruturas Metálicas de Alta Performance",
+      "subtitle": "Engenharia de precisão para galpões industriais e comerciais."
+    },
+    {
+      "id": 2,
+      "image": "/images/hero/slide-2.jpg",
+      "alt": "Montagem de cobertura metálica em andamento",
+      "title": "Coberturas e Telhados Resilientes",
+      "subtitle": "Proteção e durabilidade para sua obra com tecnologia de ponta."
+    },
+    {
+      "id": 3,
+      "image": "/images/hero/slide-3.jpg",
+      "alt": "Mezanino metálico detalhado em ambiente comercial",
+      "title": "Otimização de Espaço com Mezaninos",
+      "subtitle": "Soluções inteligentes para ampliar sua área útil com rapidez."
+    }
+  ],
+  "stats": [
+    { "label": "Toneladas de Aço", "value": 500, "suffix": "+" },
+    { "label": "Galpões Entregues", "value": 100, "suffix": "+" },
+    { "label": "Anos de Experiência", "value": 15, "suffix": "+" }
+  ],
+  "testimonials": [
+    {
+      "name": "Ricardo Silva",
+      "company": "Logística Express",
+      "text": "A execução do mezanino foi impecável. Rapidez e limpeza na obra foram os diferenciais."
+    },
+    {
+      "name": "Eng. Cláudia Souza",
+      "company": "Construtora Horizonte",
+      "text": "A MaxFe entrega precisão técnica. Os cálculos estruturais facilitaram muito a integração com a alvenaria."
+    },
+    {
+      "name": "Eng. Cláudia Souza",
+      "company": "Construtora Horizonte",
+      "text": "A MaxFe entrega precisão técnica. Os cálculos estruturais facilitaram muito a integração com a alvenaria."
+    },
+    {
+      "name": "Eng. Cláudia Souza",
+      "company": "Construtora Horizonte",
+      "text": "A MaxFe entrega precisão técnica. Os cálculos estruturais facilitaram muito a integração com a alvenaria."
+    },
+    {
+      "name": "Eng. Cláudia Souza",
+      "company": "Construtora Horizonte",
+      "text": "A MaxFe entrega precisão técnica. Os cálculos estruturais facilitaram muito a integração com a alvenaria."
+    },
+    {
+      "name": "Eng. Cláudia Souza",
+      "company": "Construtora Horizonte",
+      "text": "A MaxFe entrega precisão técnica. Os cálculos estruturais facilitaram muito a integração com a alvenaria."
+    }
+  ],
+  "advantages": [
+    {
+      "id": 1,
+      "title": "Durabilidade Extrema",
+      "description": "Utilizamos aço certificado com proteção anticorrosiva de alta resistência para garantir décadas de vida útil."
+    },
+    {
+      "id": 2,
+      "title": "Precisão de Cálculo",
+      "description": "Projetos detalhados em software de ponta, eliminando erros de montagem e desperdício de material."
+    },
+    {
+      "id": 3,
+      "title": "Rapidez na Entrega",
+      "description": "Logística própria e equipes especializadas para garantir que seu cronograma seja cumprido rigorosamente."
+    },
+    {
+      "id": 4,
+      "title": "Custo-Benefício",
+      "description": "Engenharia de valor: otimizamos o peso da estrutura sem comprometer a segurança, reduzindo seu custo final."
+    }
+  ],
+  "solutions": [
+    {
+      "id": "galpoes",
+      "title": "Galpões Industriais",
+      "category": "Estruturas",
+      "shortDescription": "Vãos livres otimizados para logística e produção.",
+      "fullContent": "Nossos galpões são projetados para máxima eficiência espacial...",
+      "image": "/images/solucoes/galpao.jpg"
+    },
+    {
+      "id": "mezaninos",
+      "title": "Mezaninos Metálicos",
+      "category": "Otimização",
+      "shortDescription": "Dobre sua área útil com agilidade e segurança.",
+      "fullContent": "Estruturas leves e resistentes que não interferem no layout...",
+      "image": "/images/solucoes/mezanino.jpg"
+    }
+  ]
+}
