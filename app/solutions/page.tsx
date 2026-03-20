@@ -1,9 +1,9 @@
-import SolutionsPage from "@/components/solutions/SolutionsSection";
+import SolutionsSection from "@/components/solutions/SolutionsSection";
 
 export default function Home() {
   return (
     <main className="flex flex-col min-h-screen">
-      <SolutionsPage />
+      <SolutionsSection />
     </main>
   );
 }

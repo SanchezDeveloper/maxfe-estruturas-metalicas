@@ -3,7 +3,7 @@
 import React from 'react';
 import { Button } from '@/components/ui/Button';
 import { WhatsAppIcon } from '@/components/ui/WhatsAppIcon'; // O ícone que criamos
-import { Mail, MapPin, Phone, ShieldCheck, HardHat, CheckCircle2 } from 'lucide-react';
+import { MapPin, Phone, ShieldCheck, HardHat, CheckCircle2 } from 'lucide-react';
 
 export default function ContactsSection() {
   const contactInfo = [
@@ -12,14 +12,7 @@ export default function ContactsSection() {
       title: "Telefone & WhatsApp",
       detail: "(61) 99541-4749",
       description: "Segunda a Sexta, das 08h às 18h",
-      link: "#"
-    },
-    {
-      icon: <Mail className="w-6 h-6" />,
-      title: "E-mail Direto",
-      detail: "contato@maxfe.com.br",
-      description: "Respondemos em até 24 horas úteis",
-      link: "#"
+      link: "https://wa.me/5561995414749?text=Ol%C3%A1!%20Gostaria%20de%20saber%20mais%20detalhes%20sobre%20os%20servi%C3%A7os%20da%20MaxF%C3%A9%20Estruturas%20Met%C3%A1licas"
     },
     {
       icon: <MapPin className="w-6 h-6" />,
@@ -39,7 +32,7 @@ export default function ContactsSection() {
   return (
     <main className="min-h-screen bg-background">
       {/* Hero de Contato */}
-      <section className="bg-primary pt-32 pb-20 text-white">
+      <section className="bg-primary pt-32 pb-20 text-white flex justify-center">
         <div className="max-w-7xl mx-auto px-4 text-center">
           <h1 className="text-4xl md:text-6xl font-black uppercase tracking-tighter mb-6">
             Fale com os <span className="text-secondary">Espacialistas</span>
@@ -52,9 +45,9 @@ export default function ContactsSection() {
 
       {/* Cards de Informação */}
       <section className="py-20 max-w-7xl mx-auto px-4">
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 -mt-32" >
+        <div className=" gap-8 -mt-32 flex flex-wrap justify-center" >
           {contactInfo.map((info, i) => (
-            <a key={i} className="bg-white p-8 rounded-2xl shadow-xl border border-gray-100 flex flex-col items-center text-center group hover:-translate-y-2 transition-all duration-300" href={info.link}>
+            <a key={i} className="bg-white p-8 rounded-2xl shadow-xl border border-gray-100 flex flex-col items-center text-center group hover:-translate-y-2 transition-all duration-300" href={info.link} target="_blank" rel="noopener noreferrer">
               <div className="w-14 h-14 bg-primary/5 rounded-full flex items-center justify-center text-primary mb-6 group-hover:bg-secondary group-hover:text-primary transition-colors">
                 {info.icon}
               </div>
