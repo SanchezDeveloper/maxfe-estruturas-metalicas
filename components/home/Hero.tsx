@@ -53,10 +53,10 @@ export const Hero = () => {
                   
                   {/* CTAs utilizando o componente Button já alinhado ao tema */}
                   <div className="flex flex-col sm:flex-row gap-5 justify-center">
-                    <Button variant="primary">
+                    <Button variant="primary" href='/contacts'>
                       Solicitar Orçamento
                     </Button>
-                    <Button variant="secondary">
+                    <Button variant="secondary" href='/solutions'>
                       Nossas Soluções
                     </Button>
                   </div>

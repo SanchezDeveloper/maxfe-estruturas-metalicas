@@ -3,6 +3,7 @@
 import { useState } from 'react';
 import Link from 'next/link';
 import { Button } from '../ui/Button';
+import { WhatsAppIcon } from '../ui/WhatsAppIcon';
 
 export const Header = () => {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
@@ -11,8 +12,8 @@ export const Header = () => {
 
   const navLinks = [
     { name: 'Início', href: '/' },
-    { name: 'Soluções', href: '/solucoes' },
-    { name: 'Contatos', href: '/contatos' },
+    { name: 'Soluções', href: '/solutions' },
+    { name: 'Contatos', href: '/contacts' },
   ];
 
   return (
@@ -40,7 +41,7 @@ export const Header = () => {
                 {link.name}
               </Link>
             ))}
-            <Button variant="primary">Solicitar Orçamento</Button>
+            <Button variant="primary" className='gap-2'> Solicitar Orçamento <WhatsAppIcon /></Button>
           </nav>
 
           {/* Mobile Menu Button */}
@@ -80,7 +81,7 @@ export const Header = () => {
             </Link>
           ))}
           <div className="pt-4">
-            <Button variant="primary" className="w-full">Solicitar Orçamento</Button>
+            <Button variant="primary" className="w-full gap-2">Solicitar Orçamento <WhatsAppIcon /></Button>
           </div>
         </div>
       </div>

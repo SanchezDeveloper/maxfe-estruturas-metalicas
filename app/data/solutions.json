@@ -1,0 +1,37 @@
+{
+  "categories": ["Todos", "Galpões", "Mezaninos", "Coberturas", "Outros"],
+  "solutions": [
+    {
+      "id": 1,
+      "title": "Galpões Logísticos",
+      "category": "Galpões",
+      "description": "Estruturas de grandes vãos com máxima eficiência volumétrica e rapidez de montagem.",
+      "image": "/images/solutions/galpao.jpg",
+      "features": ["Vãos livres de até 50m", "Pé direito elevado", "Cobertura termoacústica"]
+    },
+    {
+      "id": 2,
+      "title": "Mezaninos de Alta Carga",
+      "category": "Mezaninos",
+      "description": "Otimização de espaço vertical para estoques, escritórios ou áreas técnicas com cálculo estrutural preciso.",
+      "image": "/images/solutions/mezanino.jpg",
+      "features": ["Carga de até 1000kg/m²", "Montagem limpa", "Acabamento industrial"]
+    },
+    {
+      "id": 3,
+      "title": "Coberturas Metálicas",
+      "category": "Coberturas",
+      "description": "Soluções leves e modernas para residências de alto padrão, garantindo estética e durabilidade.",
+      "image": "/images/solutions/telhado.jpg",
+      "features": ["Design minimalista", "Resistência à corrosão", "Rapidez na execução"]
+    },
+    {
+      "id": 4,
+      "title": "Projetos Personalizados",
+      "category": "Outros",
+      "description": "Soluções sob medida desenvolvidas conforme a necessidade do cliente, com foco em segurança, eficiência e conformidade técnica.",
+      "image": "/images/solutions/projeto.jpg",
+      "features": ["Normas NBR", "Pintura eletrostática", "Instalação ágil"]
+    }
+  ]
+}

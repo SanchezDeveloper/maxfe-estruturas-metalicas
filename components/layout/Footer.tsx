@@ -2,6 +2,8 @@
 
 import Link from 'next/link';
 import { Button } from '../ui/Button';
+import { Mail, MapPin, Phone } from 'lucide-react';
+import { WhatsAppIcon } from '../ui/WhatsAppIcon';
 
 export const Footer = () => {
   const currentYear = new Date().getFullYear();
@@ -40,16 +42,16 @@ export const Footer = () => {
               Contato
             </h4>
             <ul className="space-y-5 text-background/80 text-sm font-bold">
+              <Link className="flex items-center gap-3" href=''>
+                <MapPin />
+                Valparaíso de Goias - GO
+              </Link>
               <li className="flex items-center gap-3">
-                <span className="text-secondary text-xl">📍</span>
-                Brasília - DF
+                <Phone/>
+                (61) 99541-4749
               </li>
               <li className="flex items-center gap-3">
-                <span className="text-secondary text-xl">📞</span>
-                (61) 99999-9999
-              </li>
-              <li className="flex items-center gap-3">
-                <span className="text-secondary text-xl">✉️</span>
+                <Mail />
                 contato@maxfe.com.br
               </li>
             </ul>
@@ -62,8 +64,8 @@ export const Footer = () => {
               Solicite um orçamento técnico sem compromisso com nossa equipe de engenharia.
             </p>
             {/* O Button variant="secondary" já aplica bg-secondary e text-primary internamente */}
-            <Button variant="secondary" className="w-full shadow-lg">
-              WHATSAPP TÉCNICO
+            <Button variant="secondary" className="w-full shadow-lg gap-2" href='https://wa.me/5561995414749?text=Ol%C3%A1!%20Gostaria%20de%20saber%20mais%20detalhes%20sobre%20os%20servi%C3%A7os%20da%20MaxF%C3%A9%20Estruturas%20Met%C3%A1licas'>
+              WHATSAPP TÉCNICO <WhatsAppIcon/>
             </Button>
           </div>
         </div>
