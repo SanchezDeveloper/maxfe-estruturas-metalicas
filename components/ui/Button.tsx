@@ -36,6 +36,7 @@ export const Button = ({
     <Link 
       href={href} 
       className={`${baseStyles} ${variants[variant]} ${className}`}
+      target="_blank" rel="noopener noreferrer"
     >
       {children}
     </Link>
